@@ -1,0 +1,126 @@
+// vim:ts=4:sw=4:et
+{
+    "border": "normal",
+    "current_border_width": 2,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 1051,
+       "width": 836,
+       "x": 1920,
+       "y": 6
+    },
+    "name": "Inbox - oneandprime@gmail.com - Gmail - Google Chrome",
+    "percent": 0.437491670968833,
+    "swallows": [
+       {
+       // "class": "^google\\-chrome$",
+       // "instance": "^google\\-chrome$"
+       // "title": "^Inbox\\ \\-\\ oneandprime\\@gmail\\.com\\ \\-\\ Gmail\\ \\-\\ Google\\ Chrome$",
+       // "transient_for": "^$",
+       // "window_role": "^browser$"
+       }
+    ],
+    "type": "con"
+}
+
+{
+    "border": "normal",
+    "current_border_width": 2,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 1051,
+       "width": 622,
+       "x": 2760,
+       "y": 6
+    },
+    "name": "Sergio Rodriguez - Outlook Web App - Google Chrome",
+    "percent": 0.325529162364501,
+    "swallows": [
+       {
+       // "class": "^google\\-chrome$",
+       // "instance": "^google\\-chrome$",
+       // "title": "^Sergio\\ Rodriguez\\ \\-\\ Outlook\\ Web\\ App\\ \\-\\ Google\\ Chrome$",
+       // "transient_for": "^$",
+       // "window_role": "^browser$"
+       }
+    ],
+    "type": "con"
+}
+
+{
+    // splitv split container with 2 children
+    "border": "normal",
+    "floating": "auto_off",
+    "layout": "splitv",
+    "percent": 0.236979166666667,
+    "type": "con",
+    "nodes": [
+        {
+            // splith split container with 1 children
+            "border": "normal",
+            "floating": "auto_off",
+            "layout": "splith",
+            "percent": 0.50188679245283,
+            "type": "con",
+            "nodes": [
+                {
+                    "border": "normal",
+                    "current_border_width": 2,
+                    "floating": "auto_off",
+                    "geometry": {
+                       "height": 524,
+                       "width": 450,
+                       "x": 3386,
+                       "y": 6
+                    },
+                    "name": "Buddy List",
+                    "percent": 1,
+                    "swallows": [
+                       {
+                        //"class": "^Pidgin$",
+                        //"instance": "^Pidgin$",
+                       // "title": "^Buddy\\ List$",
+                       // "transient_for": "^$",
+                       // "window_role": "^buddy_list$"
+                       }
+                    ],
+                    "type": "con"
+                }
+            ]
+        },
+        {
+            // splith split container with 1 children
+            "border": "normal",
+            "floating": "auto_off",
+            "layout": "splith",
+            "percent": 0.49811320754717,
+            "type": "con",
+            "nodes": [
+                {
+                    "border": "normal",
+                    "current_border_width": 2,
+                    "floating": "auto_off",
+                    "geometry": {
+                       "height": 519,
+                       "width": 450,
+                       "x": 3386,
+                       "y": 538
+                    },
+                    "name": "Zane Riley x114",
+                    "percent": 1,
+                    "swallows": [
+                       {
+                        //"class": "^Pidgin$",
+                        //"instance": "^Pidgin$",
+                       // "title": "^Zane\\ Riley\\ x114$",
+                       // "transient_for": "^$",
+                        "window_role": "^conversation$"
+                       }
+                    ],
+                    "type": "con"
+                }
+            ]
+        }
+    ]
+}
+
