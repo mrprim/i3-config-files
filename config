@@ -1,5 +1,5 @@
 set $mod Mod4
-set $browser google-chrome
+set $browser google-chrome-beta
 set $text subl
 set $music spotify
 set $mail thunderbird
