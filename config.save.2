@@ -176,30 +176,9 @@ bindsym $mod+r mode "resize"
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
 
-# Laptop Monitor Bar
-bar {
-#    verbose yes
-        output eDP1
-        tray_output primary
-        status_command i3status --config ~/.i3/.i3status.mobile.conf
-        position bottom
-        separator_symbol "|"
-        colors {
-                statusline         $white
-                background         $transparent
-                separator          $cyan
-                #                       BORDER       BACKGROUND   TEXT
-                focused_workspace       $transparent $transparent $cyan
-                inactive_workspace      $transparent $transparent $white
-                active_workspace        $transparent $transparent $white
-                urgent_workspace        $darkred     $darkred     $transpa$
-        }
-}
-
 # Left Monitor Bar
 bar {
 #    verbose yes
-        output HDMI1
         tray_output primary
         status_command i3status --config ~/.i3/.i3status.datetime.conf
         position bottom
@@ -210,17 +189,11 @@ bar {
                 separator          $cyan
                 #                       BORDER       BACKGROUND   TEXT
                 focused_workspace       $transparent $transparent $cyan
-                inactive_workspace      $transparent $transparent $white
-                active_workspace        $transparent $transparent $white
-                urgent_workspace        $darkred     $darkred     $transparent
-        }
-}
+                inactive_wo
 
 
 # Right Monitor Bar
 bar {
-        tray_output none
-        output HDMI3
         status_command i3status --config ~/.i3/.i3status.conf
         position bottom
         separator_symbol "|"
@@ -301,5 +274,3 @@ bindsym $mod+Shift+T exec $mail
 exec --no-startup-id feh --bg-fill ~/.i3/bg/bg.png
 # Automatic sleep lock
 exec --no-startup-id xautolock -detectsleep -time 5 -locker "i3lock -c 000000 -i ~/.i3/lock/lock.png -t && sleep 1"
-# Turn on Dropbox
-exec --no-startup-id dropbox start
